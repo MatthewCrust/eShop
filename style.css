@@ -1,0 +1,195 @@
+#searchBtn{
+    border-radius: 4px;
+    margin-left: 4px;
+    height: 40px;
+    margin-top: 10px;
+}
+#search{
+    width: 400px;
+}
+.sideBar{
+    background-color: #ffc505 ;
+    top: 200;
+    left: 0;
+    width: 225px;
+    display: fixed;
+    height: 100%;
+    padding: 20px 0;
+    border-top: solid 4px #930404;
+    position: sticky !important;
+}
+#logBtn{
+    width: 80px;
+    height: 60px;
+}
+.cartBox{
+    margin-right: 50px;
+}
+#carouselExampleControls{
+    margin-left: 160px !important;
+    margin-top: 30px !important;
+}
+#sidebar{
+    border-top: solid 4px #930404;
+    background-color: #ffc505;
+}
+.card{
+    margin: 10px !important;
+}
+.sideBtn{
+    background-color: #ffc505;
+    width: 254px;
+    height: 40px;
+    border: none;
+    text-align: left;
+    color: black;
+}
+.sideBtn:hover{
+    cursor: pointer;
+    background-color: white;
+    text-decoration:underline;
+    border-left: solid 4px #930404 !important; 
+    border: solid 4px white;       
+}
+.add-to-cart-btn{
+  color: white !important;
+  margin-top: 10px !important;
+}
+.card{
+  text-align: center !important;
+}
+.product-name{
+  font-weight:bold;
+}
+.product-price{
+  font-weight:400;
+}
+.btn-cart{
+  background-color: transparent;
+  border: none;
+  margin-right: 30px;
+  outline: none;
+}
+.btn-cart:focus{
+  outline: none;
+}
+.btn-cart:hover{
+  cursor: pointer;
+}
+#map{
+  margin-left: 320px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 20%;
+    right: 38%;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.formBox {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 160px;
+  border: solid 2px grey ;
+}

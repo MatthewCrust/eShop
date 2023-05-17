@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakty</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="pics/deezNo.png" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light" style="background-color: #d49b9b;" >
+
+        <a class="navbar-brand" href="index.html">
+        <img src="pics/deez.png" width="114" height="83" alt="">
+        </a>
+        <div class="textBox d-flex flex-row">
+            <input id="search" type="text">
+            <button id="searchBtn">Vyhledat</button>   
+        </div>
+        
+        <div class="d-flex flex-row">
+                <button type="button" class="btn-cart" data-toggle="modal" data-target="#exampleModal">
+                    <img src="pics/shopping-cart.svg" width="40" height="40" alt="">
+                </button>
+            <button onclick="openForm()" id="logBtn">Přihlásit se</button>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+          <div id="sidebar" class="col-mg-2 col-sm-2 d-flex flex-column align-items-center">
+              <button class="sideBtn"><img style="margin-left: 10px;" width="30" height="17" src="https://1000logos.net/wp-content/uploads/2020/06/Lays-Logo.png">Lays</button>
+              <button class="sideBtn"><img style="margin-left: 10px;" width="30" height="17" src="https://1000logos.net/wp-content/uploads/2020/06/Lays-Logo.png">Lays</button>
+              <button class="sideBtn"><img style="margin-left: 10px;" width="30" height="17" src="https://1000logos.net/wp-content/uploads/2020/06/Lays-Logo.png">Lays</button>
+              <button class="sideBtn"><img style="margin-left: 10px;" width="30" height="17" src="https://1000logos.net/wp-content/uploads/2020/06/Lays-Logo.png">Lays</button>
+            </div>
+
+            <div class="col-mg-10 col-sm-10 ">
+
+                <h1 style="text-align: center;margin-top: 20px;">Kontaktujte nás</h1>
+
+                <div class="formBox w-75 p-3">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">Jméno</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Vaše jméno..">
+                  
+                      <label for="lname">Příjmení</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Vaše příjmení..">
+
+                      <label for="lname">Email</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Váš email..">
+                  
+                      <label for="subject">Zpráva</label>
+                      <textarea id="subject" name="subject" placeholder="Sem napište vaši zprávu.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                </div>
+
+                <h1 style="text-align: center;margin-top: 20px;">Kde nás najdete?</h1>
+
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d636.3539439871518!2d13.82181668392567!3d50.35880124002609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scz!4v1683618337105!5m2!1sen!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0" style="color: black;">© 2023 Matěj Kůrka</p>
+
+          <a href="" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img class="w-25" src="pics/deez.png" alt="">
+          </a>
+
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2" style="color: black;">Home</a></li>
+            <li class="nav-item"><a href="kontakty.html" class="nav-link px-2" style="color: black;">Kontakty</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2" style="color: black;">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2" style="color: black;">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2" style="color: black;">About</a></li>
+          </ul>
+        </footer>
+      </div>
+</body>
+</html>
